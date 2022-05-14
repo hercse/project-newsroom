@@ -1,0 +1,31 @@
+.page {
+    &-container {
+        font-size: var(--size-reading);
+        grid-column: 6/16;
+        * {
+            margin: 4vmin 0;
+            display: block;
+            width: 100%;
+        }
+        blockquote {
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            font-style: italic;
+            padding: 0 4vmin;
+            &::after,
+            &::before {
+                content: "''";
+                display: block;
+                margin: 4vmin 0;
+            }
+        }
+    }
+    &-title {
+        grid-column: 6/16;
+        text-align: center;
+        .large-headar {
+            margin-top: 40px;
+        }
+    }
+}

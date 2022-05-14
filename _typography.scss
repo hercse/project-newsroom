@@ -1,0 +1,41 @@
+:root {
+    --size-text: 15px; //fixed
+    --size-reading: 20px; //fixed
+    --size-headar: 30px;
+    --size-large-headar: 60px;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+    line-height: 100%;
+    font-weight: 400;
+}
+
+.text {
+    font-size: 15px;
+}
+
+.read {
+    font-size: calc(14px + 0.35vw);
+}
+
+.title {
+    font-weight: 500;
+}
+
+.headar {
+    font-size: calc(15px + .78vw);
+    text-transform: uppercase;
+}
+
+.large-headar {
+    font-size: calc(25px + 1.8vw);
+    text-transform: uppercase;
+}
+
+a {
+    color: var(--text-color);
+}
+
+// --:;
