@@ -94,6 +94,18 @@ body {
 }
 
 .work {
+    &-feature {
+        max-width: 400px;
+        &-title {
+            text-transform: uppercase;
+        }
+        &-description {
+            margin: 40px 0;
+        }
+        &-link {
+            text-transform: uppercase;
+        }
+    }
     &-item {
         &>* {
             padding-right: var(--work-item-gap);
