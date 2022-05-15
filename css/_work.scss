@@ -1,5 +1,5 @@
 .work {
-    &-feature {
+    &__feature {
         max-width: 400px;
         &-title {
             text-transform: uppercase;
@@ -11,7 +11,7 @@
             text-transform: uppercase;
         }
     }
-    &-item {
+    &__item {
         &>* {
             padding-right: var(--work-item-gap);
         }

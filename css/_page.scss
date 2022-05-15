@@ -1,5 +1,5 @@
 .page {
-    &-container {
+    &__container {
         font-size: var(--size-reading);
         grid-column: 6/16;
         * {
@@ -21,7 +21,7 @@
             }
         }
     }
-    &-title {
+    &__title {
         grid-column: 6/16;
         text-align: center;
         .large-headar {

@@ -1,5 +1,8 @@
 .newsroom {
-    &-feature {
+    &\:layout {
+        &__grid {}
+    }
+    &__feature {
         @media screen and (max-width: 800px) {
             text-align: center;
             &-content {
@@ -43,7 +46,7 @@
             }
         }
     }
-    &-item {
+    &__item {
         @media screen and (max-width: 800px) {
             text-align: center;
             &-content {
