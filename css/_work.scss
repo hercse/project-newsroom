@@ -1,0 +1,43 @@
+.work {
+    &-feature {
+        max-width: 400px;
+        &-title {
+            text-transform: uppercase;
+        }
+        &-description {
+            margin: 40px 0;
+        }
+        &-link {
+            text-transform: uppercase;
+        }
+    }
+    &-item {
+        &>* {
+            padding-right: var(--work-item-gap);
+        }
+        --work-item-gap: .7vw;
+        .line {
+            margin: var(--work-item-gap) 0;
+        }
+        img {
+            min-width: 100px;
+            min-height: 60px;
+            width: 15vw;
+            height: 8vw;
+            object-fit: contain;
+            object-position: center;
+            background-color: black;
+            margin-right: var(--work-item-gap);
+        }
+        text-transform: uppercase;
+        &-images {
+            margin-top: calc(var(--work-item-gap)*1.5);
+        }
+        &-description {
+            text-transform: none !important;
+            &-title {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
