@@ -24,6 +24,9 @@
     .#{$media}d-grid {
         display: grid;
     }
+    .#{$media}d-flex {
+        display: flex;
+    }
 }
 
 $media-s:600px;
