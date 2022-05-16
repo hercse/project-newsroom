@@ -28,16 +28,9 @@
         padding-bottom: var(--work-item-gap);
         &:hover {
             &::after {
-                animation: work__item--select 1.2s infinite steps(1, end);
                 height: 100%;
                 top: 0;
             }
-        }
-        &:first-child {
-            * {
-                text-transform: uppercase !important;
-            }
-            padding-top: var(--work-item-gap);
         }
         &::after {
             transition: .5s cubic-bezier(.71, .01, .13, .99);
@@ -71,6 +64,15 @@
             margin-bottom: calc(var(--work-item-gap)*1.5);
         }
         text-transform: uppercase;
+        &-titleline {
+            &::after {
+                display: none;
+            }
+            * {
+                text-transform: uppercase !important;
+            }
+            padding-top: var(--work-item-gap);
+        }
         &-images {
             margin-top: calc(var(--work-item-gap)*1.5);
         }
