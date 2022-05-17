@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+html {
+    background-color: var(--theme-color);
+}
+
 :root {
     --theme-color: #A8BE93;
 }
