@@ -18,12 +18,17 @@
                 padding-right: 3vw;
                 overflow-y: scroll;
                 overflow-x: hidden;
+                position: relative;
                 img {
                     width: 100%;
                     height: 60vmin;
                     object-fit: contain;
                     background-color: var(--text-color);
                     margin: 1vmin 0;
+                    position: relative;
+                    z-index: 999;
+                    mix-blend-mode: normal !important;
+                    filter: saturate(1) !important;
                 }
             }
             &-information {
