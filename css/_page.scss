@@ -39,7 +39,7 @@
     &__container {
         font-size: var(--size-reading);
         grid-column: 6/16;
-        * {
+        *:not(li) {
             margin: 4vmin 0;
             display: block;
             width: 100%;

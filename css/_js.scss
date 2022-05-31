@@ -1,0 +1,8 @@
+:root {
+        // js
+        --minus:1;
+        --get-r: calc((var(--base-r)*(var(--blend-r)*var(--minus)))*255);
+        --get-g: calc((var(--base-g)*(var(--blend-g)*var(--minus)))*255);
+        --get-b: calc((var(--base-b)*(var(--blend-b)*var(--minus)))*255);
+        --get: var(--get-r), var(--get-g), var(--get-b);
+}
